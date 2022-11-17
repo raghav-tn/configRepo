@@ -10,7 +10,7 @@
             <PatternLayout pattern="${LOG_PATTERN}" />
         </Console>
         <RollingFile name="appLog"
-                fileName="${APP_LOG_ROOT}/application.log"
+                fileName="${APP_LOG_ROOT}/application2.log"
                 filePattern="${APP_LOG_ROOT}/application-%d{yyyy-MM-dd}-%i.log">
             <PatternLayout pattern="${LOG_PATTERN}" />
             <Policies>
@@ -25,7 +25,7 @@
             <AppenderRef ref="appLog" />
             <AppenderRef ref="Console" />
         </Logger>
-        <Root level="DEBUG">
+        <Root level="INFO">
             <AppenderRef ref="Console" />
             <AppenderRef ref="appLog" />
         </Root>
