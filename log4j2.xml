@@ -2,7 +2,7 @@
 <Configuration shutdownHook="disable" monitorInterval="20">
     <Properties>
         <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
-        <Property name="APP_LOG_ROOT">C:\\logs</Property>
+        <Property name="APP_LOG_ROOT">/Users/rtho0004/Downloads/logs</Property>
     </Properties>
 
     <Appenders>
