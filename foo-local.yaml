@@ -34,3 +34,9 @@ logging:
 server:
   servlet:
     context-path: /change
+    
+es:
+  video:
+    filter:
+      redirect:
+        url: http://dummy.org
